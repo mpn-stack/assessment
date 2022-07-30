@@ -1,5 +1,5 @@
 #1 - register Customer
-curl --location --request POST '127.0.0.1:8000/Customers/' \
+curl --location  --request POST '127.0.0.1:8000/Customers/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "first_name": "alireza",
@@ -35,5 +35,4 @@ curl --location --request GET '127.0.0.1:8000/Get-All-Customers' \
     "first_name" : "shahin ",
     "last_name" : "nabavi",
     "national_code" : "0559867111"
-}
-'
+}'
